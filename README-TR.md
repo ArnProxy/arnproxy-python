@@ -1,6 +1,6 @@
 # ARNPROXY Python SDK
 
-1.1.0 sürümü. Gereksinim: Python 3.10+.
+1.1.1 sürümü. Gereksinim: Python 3.10+.
 
 Bu depo yalnız müşterinin API'ye bağlanmasını sağlayan istemci kodlarını içerir. Site/sunucu kodları, API anahtarları veya müşteri bilgileri içermez. SDK'nın açık kaynak olması proxy hizmetini ücretsiz yapmaz ve API erişim izni vermez. Hesap izinleri, bakiyeler, IP kısıtlamaları ve sınırlar sunucuda denetlenmeye devam eder.
 

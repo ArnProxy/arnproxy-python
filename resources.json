@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "base": "https://www.arnproxy.com/account/api/v1/",
   "resources": {
     "extra_login_replace_options": {

@@ -19,10 +19,10 @@
         "webhook-timestamp": "1792900000",
         "webhook-signature": "v1,nfnVegCk1VejE+GOYm9oKNtpPljNLFaLaHgVNq149hE="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "valid",
-      "valid": true
+      "valid": true,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}} ",
@@ -31,10 +31,10 @@
         "webhook-timestamp": "1792900000",
         "webhook-signature": "v1,nfnVegCk1VejE+GOYm9oKNtpPljNLFaLaHgVNq149hE="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "tampered",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -43,10 +43,10 @@
         "webhook-timestamp": "1792899699",
         "webhook-signature": "v1,SmV/L9cHNvYohfIFxNTALYyVqHIswx4fMArJY1SjSJc="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "stale",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -55,10 +55,10 @@
         "webhook-timestamp": "1792900301",
         "webhook-signature": "v1,h3vNSswX1piZIQgEf3XOVb/FcPYrqLgbW12Jpd5HYuw="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "future",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -67,10 +67,10 @@
         "webhook-timestamp": "1792899700",
         "webhook-signature": "v1,QNoo5KV3D+MPmsJrqtX1RdoR2aG+Hzgb9JlOXwZ+bIs="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "boundary",
-      "valid": true
+      "valid": true,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -79,10 +79,10 @@
         "Webhook-Timestamp": "1792900000",
         "Webhook-Signature": "v1,nfnVegCk1VejE+GOYm9oKNtpPljNLFaLaHgVNq149hE="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "mixed_case",
-      "valid": true
+      "valid": true,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -92,10 +92,10 @@
         "webhook-signature": "v1,nfnVegCk1VejE+GOYm9oKNtpPljNLFaLaHgVNq149hE=",
         "Webhook-Id": "evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "duplicate_headers",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -104,10 +104,10 @@
         "webhook-timestamp": "1792900000",
         "webhook-signature": "v1,nfnVegCk1VejE+GOYm9oKNtpPljNLFaLaHgVNq149hE="
       },
-      "secret": "whsec_WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVk=",
       "now": 1792900000,
       "name": "wrong_key",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_Y_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -116,10 +116,10 @@
         "webhook-timestamp": "1792900000",
         "webhook-signature": "v9,ignored v1,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA= v1,nfnVegCk1VejE+GOYm9oKNtpPljNLFaLaHgVNq149hE="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "multiple_signatures",
-      "valid": true
+      "valid": true,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -128,18 +128,18 @@
         "webhook-timestamp": "1792900000",
         "webhook-signature": "v1,bad"
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "bad_signature",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
       "headers": {},
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "missing_headers",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -148,10 +148,10 @@
         "webhook-timestamp": "1792900000",
         "webhook-signature": "v1,OuSV308C2PGKP+lW3Jq1xftSH6Saf7WST/I/RcxDPOg="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "mismatched_signed_id",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
@@ -160,10 +160,10 @@
         "webhook-timestamp": "1792900000",
         "webhook-signature": "v1,mhmzhXBHLpfsE748QtD+OT43payAEH6M08ZdeBVNorE="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "oversize",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{broken",
@@ -172,10 +172,10 @@
         "webhook-timestamp": "1792900000",
         "webhook-signature": "v1,wtSmXvjcBDyh+nswtNj1ysApZZTXk5U9MIB4AppVjn0="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "bad_json",
-      "valid": false
+      "valid": false,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -184,10 +184,10 @@
         "webhook-timestamp": "1792900000",
         "webhook-signature": "v1,nfnVegCk1VejE+GOYm9oKNtpPljNLFaLaHgVNq149hE="
       },
-      "secret": "whsec_WFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFg=",
       "now": 1792900000,
       "name": "duplicate_delivery",
-      "valid": true
+      "valid": true,
+      "secret_fixture": "repeat_X_32"
     },
     {
       "body": "{\"id\":\"evt_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"type\":\"webhook.test\",\"timestamp\":\"2026-10-25T00:00:00Z\",\"api_version\":\"1\",\"data\":{\"account_id\":2,\"message\":\"Synthetic Türkçe fixture\"}}",
@@ -201,5 +201,8 @@
       "name": "bad_secret_format",
       "valid": false
     }
-  ]
+  ],
+  "test_only": true,
+  "fixture_format": 2,
+  "description": "Public synthetic X/Y byte recipes; never real service credentials."
 }

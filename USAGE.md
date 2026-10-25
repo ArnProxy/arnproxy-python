@@ -1,6 +1,6 @@
 # Usage notes
 
-ARNPROXY thin clients / SDK 1.1.0
+ARNPROXY thin clients / SDK 1.1.1
 PHP 8.1+ with cURL; Python 3.10+; Node.js 20+; Java 17+ with Gson via Maven; Go 1.22+.
 PHP/Python/Node/Go do not need third-party runtime packages; Java needs Gson. Preserve the folders and adjacent resources.json.
 request() covers all 77 documented resources, not all server-side permissions or capabilities.

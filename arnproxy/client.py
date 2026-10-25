@@ -1,4 +1,4 @@
-"""ARNPROXY thin client 1.1.0. No redirects, retries, automatic polling or logging."""
+"""ARNPROXY thin client 1.1.1. No redirects, retries, automatic polling or logging."""
 from __future__ import annotations
 
 import base64
@@ -63,7 +63,7 @@ class Client:
             raise ArnproxyError("WRITES_DISABLED")
         if spec["provider_read"] and self.allow_provider_reads is not True:
             raise ArnproxyError("PROVIDER_READS_DISABLED")
-        headers = {"Authorization": "Bearer " + self.__api_key, "Accept": "application/json", "User-Agent": "ARNPROXY-Python/1.1.0"}
+        headers = {"Authorization": "Bearer " + self.__api_key, "Accept": "application/json", "User-Agent": "ARNPROXY-Python/1.1.1"}
         if spec["idempotency"]:
             if not isinstance(operation_key, str) or not re.fullmatch(r"[A-Za-z0-9_-]{16,100}", operation_key):
                 raise ArnproxyError("OPERATION_KEY_REQUIRED")

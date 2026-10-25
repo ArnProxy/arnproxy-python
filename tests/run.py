@@ -13,6 +13,14 @@ from arnproxy import Client, ArnproxyError, verify_webhook
 fixture = json.loads(pathlib.Path(sys.argv[2]).read_text(encoding="utf-8"))
 resources = json.loads((root / "resources.json").read_text())["resources"]
 checks = 0
+# Deliberately public synthetic bytes, not a production signing secret.
+import base64
+for vector in fixture['vectors']:
+    tag = vector.get('secret_fixture')
+    if tag is not None:
+        assert tag in ('repeat_X_32', 'repeat_Y_32'), 'INVALID_TEST_FIXTURE'
+        vector['secret'] = 'whsec_' + base64.b64encode((b'X' if tag == 'repeat_X_32' else b'Y') * 32).decode('ascii')
+
 def ck(value):
     global checks
     assert value
